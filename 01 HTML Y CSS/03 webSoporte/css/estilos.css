@@ -1,7 +1,34 @@
+/* RESETEO */
 *{
     margin: 0;
     padding: 0;
 }
 ul{
     list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* NAV */
+nav{
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* font-size: 50px; */
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    /* color: white; */
+    /* color: #ffffff; */
+    color: rgb(255,255,255);
+    font-family: 'Poppins', sans-serif;
+    /* text-decoration: none; */
+    /* padding: 15px; un solo valor son los 4 lados */
+    /* padding: 10px 15px; 1er ariba y abajo, izquierda derecha */
+    /* padding: 10px 25px 5px 35px; */
+    padding: 10px 20px;
+    display: inline-block;
 }
