@@ -32,3 +32,8 @@ nav ul li a{
     padding: 10px 20px;
     display: inline-block;
 }
+
+/* ⚡⚡ SECTION ⚡⚡ */
+section{
+    display: flex;
+}
