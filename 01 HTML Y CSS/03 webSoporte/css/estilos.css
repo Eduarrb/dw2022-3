@@ -95,7 +95,46 @@ nav ul li a{
     margin-left: 10px;
 }
 
+.sectionHead article img{
+    display: block;
+}
+.sectionHead article{
+    position: relative;
+}
+.sectionHead article p{
+    position: absolute;
+}
 .soporte{
     background-color:#1268fb;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    /* position: absolute; */
+    bottom: 0;
+    padding: 60px 50px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.soporte span{
+    display: block;
+    
+}
+.soperteApple{
+    bottom: 30px;
+    left: 50%;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px 20px 20px;
+}
+.soperteApple i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.soperteApple span{
+    width: 130px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
 }
