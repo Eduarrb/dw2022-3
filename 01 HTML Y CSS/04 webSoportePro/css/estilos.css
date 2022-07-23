@@ -1,0 +1,49 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+/* 🔥🔥 VARIABLES 🔥🔥 */
+/*🔥🔥 CLASES CONSTANTES 🔥🔥*/
+.menu {
+  background-color: #4d4d4d;
+}
+.menu__contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__contenedor__menuBox {
+  display: flex;
+}
+.menu__contenedor__menuBox__item--link {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+}
+
+/*# sourceMappingURL=estilos.css.map */

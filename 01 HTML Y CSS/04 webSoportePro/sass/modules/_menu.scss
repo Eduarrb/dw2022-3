@@ -1,0 +1,23 @@
+.menu{
+    background-color: #4d4d4d;
+    &__contenedor{
+        // & = .menu
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__menuBox{
+            // & = .menu__contenedor
+            display: flex;
+            &__item{
+                // & = .menu__contenedor__menuBox
+                &--link{
+                    // & = .menu__contenedor__menuBox__item
+                    color: white;
+                    font-family: $font-poppin;
+                    padding: 1rem 2rem;
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}
