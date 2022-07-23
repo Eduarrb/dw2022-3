@@ -12,14 +12,26 @@ a{
 /* NAV */
 nav{
     /* background-color: #4d4d4d; */
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     padding: 20px;
     /* font-size: 50px; */
     position: fixed;
-    width: calc(100% - 40px);
-    align-items: center;
+    /* width: calc(100% - 40px); */
+    width: 100%;
+    /* width: 1000px; */
+    box-sizing: border-box;
+    /* margin-left: 10px; */
+    /* align-items: center; */
     z-index: 1;
+}
+.navContenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav ul{
     display: flex;
@@ -54,16 +66,10 @@ nav ul li a{
     display: flex;
     align-items: center;
 }
-
-.sectionHead aside img{
-    /* height: 310px; */
-}
-
 .sectionHead aside section{
     /* padding: 0 100px 0 80px; */
     margin: 0 100px 0 80px;
 }
-
 .experiencia{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
