@@ -1,5 +1,9 @@
 .menu{
     background-color: #4d4d4d;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 1.5rem 2rem;
     &__contenedor{
         // & = .menu
         display: flex;
@@ -16,6 +20,18 @@
                     font-family: $font-poppin;
                     padding: 1rem 2rem;
                     font-size: 1.6rem;
+                    border-bottom: .3rem solid transparent;
+                    transition: all .3s;
+                    // & => menu__contenedor__menuBox__item--link
+                    &:hover{
+                        color: #00e5c2;
+                        border-bottom: .3rem solid #00e5c2;
+                        transition: all .3s;
+                    }
+                    &.active{ // & => .menu__contenedor__menuBox__item--link.active
+                        color: #00e5c2;
+                        border-bottom: .3rem solid #00e5c2;
+                    }
                 }
             }
         }
