@@ -28,6 +28,32 @@ img {
 
 /* 🔥🔥 VARIABLES 🔥🔥 */
 /*🔥🔥 CLASES CONSTANTES 🔥🔥*/
+.btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding: 1rem 2.5rem;
+  border-radius: 0.5rem;
+}
+.btn i {
+  margin-left: 1rem;
+}
+
+.btn-base {
+  background-color: #1268fb;
+  color: white;
+  transition: all 0.3s;
+}
+.btn-base:hover {
+  background-color: #007aff;
+  transition: all 0.3s;
+}
+
+.btn-verdecito {
+  background-color: #1abc9c;
+  color: #ecf0f1;
+}
+
 .centrar-bloque {
   margin-left: auto;
   margin-right: auto;
@@ -37,8 +63,47 @@ img {
   max-width: 192rem;
 }
 
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+.mt-7 {
+  margin-top: 7rem;
+}
+
+.mt-8 {
+  margin-top: 8rem;
+}
+
+.mt-9 {
+  margin-top: 9rem;
+}
+
+.mt-10 {
+  margin-top: 10rem;
+}
+
 .menu {
-  background-color: #4d4d4d;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -68,6 +133,58 @@ img {
 .menu__contenedor__menuBox__item--link.active {
   color: #00e5c2;
   border-bottom: 0.3rem solid #00e5c2;
+}
+
+.sectionHead {
+  display: flex;
+}
+.sectionHead__aside {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.sectionHead__aside__col {
+  margin: 0 10rem 0 8rem;
+}
+.sectionHead__aside__col--exp {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1268fb;
+  font-size: 1.5rem;
+}
+.sectionHead__aside__col h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 6rem;
+}
+.sectionHead__aside__col--descri {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+.sectionHead__article {
+  width: 60%;
+  position: relative;
+}
+.sectionHead__article img {
+  width: 100%;
+}
+.sectionHead__article p {
+  position: absolute;
+}
+.sectionHead__article--soporte {
+  background-color: #1268fb;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  bottom: 0;
+  padding: 6rem 5rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.sectionHead__article--soporte span {
+  display: block;
 }
 
 /*# sourceMappingURL=estilos.css.map */

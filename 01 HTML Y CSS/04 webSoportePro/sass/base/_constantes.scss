@@ -2,7 +2,34 @@
 $font-poppin: 'Poppins', sans-serif;
 $font-inter: 'Inter', sans-serif;
 
+$color-base: #1268fb;
+$color-base-light: #007aff;
+
+
 /*🔥🔥 CLASES CONSTANTES 🔥🔥*/
+.btn{
+    font-family: $font-inter;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 1rem 2.5rem;
+    border-radius: .5rem;
+    i{
+        margin-left: 1rem;
+    }
+}
+.btn-base{
+    background-color: $color-base;
+    color: white;
+    transition: all .3s;
+    &:hover{
+        background-color: $color-base-light;
+        transition: all .3s;
+    }
+}
+.btn-verdecito{
+    background-color: #1abc9c;
+    color: #ecf0f1;
+}
 .centrar-bloque{
     margin-left: auto;
     margin-right: auto;
@@ -12,3 +39,35 @@ $font-inter: 'Inter', sans-serif;
     max-width: 192rem;
 }
 // max de 1200px
+
+//🔥🔥 MARGENES CONSTANTES
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+.mt-5{
+    margin-top: 5rem;
+}
+.mt-6{
+    margin-top: 6rem;
+}
+.mt-7{
+    margin-top: 7rem;
+}
+.mt-8{
+    margin-top: 8rem;
+}
+.mt-9{
+    margin-top: 9rem;
+}
+.mt-10{
+    margin-top: 10rem;
+}
