@@ -47,5 +47,33 @@
                 display: block;
             }
         }
+        &--apple,
+        &--time{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem 2rem 2rem 2rem;
+            font-family: $font-poppin;
+            bottom: 3rem;
+            span{
+                width: 13rem;
+                text-align: center;
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+            i{
+                font-size: 5rem;
+                margin-bottom: 2rem;
+            }
+        }
+        &--apple{
+            background-color: white;
+            left: 50%;
+        }
+        &--time{
+            left: 66%;
+            background-color: $color-base;
+            color: white;
+        }
     }
 }
